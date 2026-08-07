@@ -1,6 +1,6 @@
 const textures = [
-    { name: "Lava", filename: "lava" },
-    { name: "Smooth Stone", filename: "smooth_stone.zip" },
+    { name: "Lava", filename: "lava.zip" },
+    { name: "Smooth Stone", filename: "smooth_stone.zip", preview: "./Previews/Lava_Preview.png" },
     { name: "Warped Wood Planks", filename: "warped_wood.zip" },
     { name: "Clear Glass", filename: "clear_glass.zip" }
 ];
@@ -23,6 +23,10 @@ function renderTextures(textureList) {
         const card = document.createElement('div');
         card.className = 'texture-card';
 
+        const preview = document.createElement('img');
+        preview.className = 'texture-preview';
+        preview.src = texture.preview;
+        preview.alt = texture.name + " texture preview";
         const title = document.createElement('h2');
         title.className = 'texture-name';
         title.textContent = texture.name;
