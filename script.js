@@ -37,6 +37,7 @@ function renderTextures(textureList) {
         downloadBtn.href = texture.filename; 
         downloadBtn.setAttribute('download', ''); 
 
+        card.appendChild(preview);
         card.appendChild(title);
         card.appendChild(downloadBtn);
         textureGrid.appendChild(card);
