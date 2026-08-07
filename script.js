@@ -1,8 +1,8 @@
 const textures = [
-    { name: "Lava", filename: "lava.zip" },
+    { name: "Lava", filename: "lava.zip" preview: "./Previews/Lava_Preview.png" },
     { name: "Smooth Stone", filename: "smooth_stone.zip", preview: "./Previews/Lava_Preview.png" },
-    { name: "Warped Wood Planks", filename: "warped_wood.zip" },
-    { name: "Clear Glass", filename: "clear_glass.zip" }
+    { name: "Warped Wood Planks", filename: "warped_wood.zip" preview: "./Previews/Lava_Preview.png" },
+    { name: "Clear Glass", filename: "clear_glass.zip" preview: "./Previews/Lava_Preview.png" }
 ];
 
 const textureGrid = document.getElementById('textureGrid');
