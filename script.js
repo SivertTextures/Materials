@@ -1,5 +1,5 @@
 const textures = [
-    { name: "Realistic Dirt 4K", filename: "realistic_dirt.zip" },
+    { name: "Lava", filename: "lava" },
     { name: "Smooth Stone", filename: "smooth_stone.zip" },
     { name: "Warped Wood Planks", filename: "warped_wood.zip" },
     { name: "Clear Glass", filename: "clear_glass.zip" }
