@@ -48,11 +48,16 @@ function filterTextures() {
 
     items.forEach(item => {
         const match = item.dataset.name.includes(query);
-        item.style.display = match ? "flex" : "none";
-        if (match) anyVisible = true;
+
+        item.style.display = match ? "" : "none";
+
+        if (match) {
+            anyVisible = true;
+        }
     });
 
-    document.getElementById("noResults").style.display = anyVisible ? "none" : "block";
+    document.getElementById("noResults").style.display =
+        anyVisible ? "none" : "block";
 }
 
 renderGrid();
