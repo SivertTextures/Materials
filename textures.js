@@ -14,7 +14,7 @@ const TEXTURES = [
     {
         name: "Lava",
         folder: "Lava",
-        resolution: "2K · 4K available",
+        resolution: "2K",
         maps: ["Base Color", "Normal", "Roughness", "Height"]
     },
     {
@@ -32,7 +32,7 @@ const TEXTURES = [
     {
         name: "Brick Wall",
         folder: "BrickWall",
-        resolution: "4K",
+        resolution: "2K",
         maps: ["Base Color", "Normal", "Height"]
     },
     {
